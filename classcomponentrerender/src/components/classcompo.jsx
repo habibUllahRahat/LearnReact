@@ -32,7 +32,7 @@ class Clock extends Component {
             <>
                 <h1>Hello Clock Class</h1>
                 Time is {this.state.date.toLocaleString(locale)}
-                {locale === 'bn-BD' ?
+                {locale === 'bn-BD' ?// conditional rendering
                     (
                         <Button
                             changefn={this.handleClick}

@@ -1,4 +1,5 @@
 import './App.css'
+import FormNewWay from './components/formNewWay';
 import Formoldway from './components/formoldway';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Formoldway />
+      <FormNewWay />
     </>
   )
 }

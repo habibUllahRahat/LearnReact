@@ -1,11 +1,11 @@
 import './App.css'
-import CalculateBoilTemp from './components/CalculateBoilTemp'
-function App() {
+import CalcTemp from './components/CalcTemp'
 
+function App() {
 
   return (
     <>
-      <CalculateBoilTemp />
+      <CalcTemp />
     </>
   )
 }

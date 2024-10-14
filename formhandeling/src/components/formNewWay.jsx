@@ -33,7 +33,7 @@ export default class FormNewWay extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <input
                         type='text'
-                        name="title"
+                        name="title"// setting name as state name then we ca use [e.target.name] as state refrence so we can set e.target value
                         onChange={this.handleInput}
                         value={title} />
 
